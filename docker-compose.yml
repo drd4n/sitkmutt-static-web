@@ -1,0 +1,6 @@
+services:
+  nginx-static-web:
+    build: .
+    image: ghcr.io/drd4n/static-web:dev
+    ports:
+      - "8080:80"
